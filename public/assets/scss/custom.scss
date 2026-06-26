@@ -1,0 +1,419 @@
+.typeanimation {
+  transition: width 0.58s ease-out !important;
+  height: 100% !important;
+  //   margin-top: -10px;
+  padding-right: 10px;
+
+  b.is-visible {
+    padding-right: 10px !important;
+  }
+}
+
+.light-content {
+  display: none !important;
+}
+
+.light-content2 {
+  display: none !important;
+}
+
+.tmp-white-version {
+  .dark-content {
+    display: none !important;
+  }
+
+  .light-content {
+    display: flex !important;
+  }
+
+  .light-content2 {
+    display: block !important;
+  }
+}
+
+.Toastify__close-button {
+  width: fit-content !important;
+  top: 20px !important;
+}
+
+.tmp-white-version .dark-link {
+  display: none !important;
+}
+
+.demo-modal-area.active-light {
+  background-color: #eee4e7;
+
+  .wrapper {
+    .tmp-modal-inner {
+      background: #ededed;
+
+      .demo-top {
+        .title {
+          color: #141414; // Overriding previous white color
+        }
+
+        .subtitle {
+          color: #3d3d3d !important;
+        }
+      }
+    }
+  }
+
+  .single-demo {
+    background: #ffffff;
+
+    &::before {
+      background: linear-gradient(180deg,
+          var(--color-primary) 0%,
+          var(--color-white) 100%);
+    }
+
+    .inner {
+      .title {
+        border-top: 1px solid transparent;
+
+        a {
+          color: #141414;
+          transition: var(--transition);
+        }
+      }
+    }
+  }
+
+  .demo-close-btn {
+    background: var(--color-white);
+  }
+}
+
+.active-light {
+  .popuptab-area {
+    li {
+      a.nav-link {
+        background: #ffffff;
+        color: #141414;
+      }
+    }
+  }
+}
+
+.single-footer-wrapper.quick-link-wrap {
+  margin-left: 0px;
+}
+
+.footer-style-one .description {
+  font-family: var(--font-secondary);
+  line-height: 1.5;
+}
+
+.testimonial-card .card-content-wrap .text-doc {
+  max-width: 100%;
+}
+
+#OurPurpose.OurPurpose {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("/assets/images/breadcrumb/breadcum-bg.png");
+}
+
+section.testimonial {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("/assets/images/breadcrumb/breadcum-bg.png");
+}
+
+#SocialAcc.SocialAcc {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("/assets/images/breadcrumb/breadcum-bg.png");
+}
+
+#Service-GetInTouch {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("/assets/images/breadcrumb/breadcum-bg.png");
+}
+
+// .hiringprocess{
+//   background-position: center;
+//   background-repeat: no-repeat;
+//   background-size: cover;
+//   background-image: url("/assets/images/breadcrumb/breadcum-bg.png");
+// }
+.project-details-content-wrap .bg-benner-img-three img {
+  border-radius: 15px;
+}
+
+.timeline-scroll {
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+}
+
+.timeline-item {
+  scroll-snap-align: center;
+  width: 220px;
+  /* controls visible size */
+}
+
+.timeline-scroll::-webkit-scrollbar {
+  display: none;
+  /* hide scrollbar */
+}
+
+.TimelineArrow span {
+  min-width: 40px;
+  min-height: 40px;
+  border: 2px solid var(--color-border);
+  border-radius: 100px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.TimelineDate {
+  background-color: var(--color-primary) !important;
+}
+
+.TimelineDate::after {
+  content: "";
+  width: 250px;
+  height: 1px;
+  position: absolute;
+  /* display: block; */
+  background: #ff014f;
+  z-index: -30;
+}
+
+.swiper-wrapper .swiper-slide img {
+  border-radius: 18px;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  color: #ff0418 !important;
+}
+
+.OurServices .card-head {
+  display: block !important;
+}
+
+.OurServices .logo-img {
+  margin-bottom: 2rem;
+}
+
+.about-us-section-card.OurServices .about-us-card .card-head .logo-img {
+  width: 60px;
+  height: 60px;
+}
+
+.about-us-section-card.OurServices .about-us-card .card-head .logo-img i {
+  font-size: 30px;
+}
+
+.tab-wrapper-overlay-to-top {
+  margin-top: 0px;
+}
+
+.BoardOfDirectors .experiences-wrap .BODImage img {
+  border-radius: 20px;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  transition: var(--transition);
+}
+
+// Tree Structure
+.tree ul {
+  padding-top: 20px;
+  position: relative;
+  padding-left: 0;
+}
+
+.tree li {
+  list-style-type: none;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+  padding: 20px 5px 0 5px;
+  display: inline-block;
+}
+
+/* Connectors */
+.tree li::before,
+.tree li::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 50%;
+  border-top: 2px solid #ccc;
+  width: 50%;
+  height: 20px;
+}
+
+.tree li::after {
+  right: auto;
+  left: 50%;
+  border-left: 2px solid #ccc;
+}
+
+.tree li::before {
+  left: auto;
+  right: 50%;
+  border-right: 2px solid #ccc;
+}
+
+/* Remove connectors for root */
+.tree li:only-child::before,
+.tree li:only-child::after {
+  content: none;
+}
+
+.tree li:only-child {
+  padding-top: 0;
+}
+
+/* Remove right connector */
+.tree li:first-child::before {
+  border: none;
+}
+
+/* Remove left connector */
+.tree li:last-child::after {
+  border: none;
+}
+
+/* Card styling */
+.tree .card {
+  display: inline-block;
+  min-width: 150px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  background: #2a2727;
+}
+
+// Tree Structure
+
+.lg-prev,
+.lg-next {
+  width: auto !important;
+}
+
+.contact-form .contact-form-wrapper .form-group select {
+  background: transparent;
+  height: inherit;
+  padding: 15px 20px;
+  font-size: 16px;
+  color: var(--color-heading);
+  font-weight: 600;
+  border-radius: 10px;
+  border: 2px solid var(--color-border);
+  font-family: var(--font-secondary);
+}
+
+select option {
+  background: #141414;
+  font-family: var(--font-secondary);
+}
+
+.form-group label {
+  font-family: var(--font-secondary);
+}
+.my-expertise-card-wrap .expertise-card-left .title {
+    font-size: 25px;
+}
+
+#home-evolution {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("/assets/images/bg-evolution.jpg");
+}
+#home-evolution .timeline-item, #home-evolution .check-box-item {
+    font-family: var(--font-secondary);
+    font-size: 1.5rem;
+}
+.btn-close {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+.bg-subscribe {
+    background-image: url(/assets/images/quick-action/shape-2.png) 0 0 no-repeat;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+}
+#SiteMap ul li {
+    list-style: disc;
+}
+.sitemap-card {
+    border-radius: 20px;
+}
+#SiteMap .sitemap-card  ul li a {
+    text-decoration: none;
+    color: var(--color-gray);
+    font-family: var(--font-secondary);
+}
+.error-code{
+  font-size: 15rem;
+  color: var(--color-primary);
+  line-height: 1;
+  font-weight: bold;
+}
+.error-message{
+  font-family: var(--font-secondary);
+  color: #ffffff;
+}
+.ready-chatting-option .wrapper .head-text {
+    line-height: 30px;
+    padding: 10px 20px;
+    font-size: 20px;
+}
+.footer-style-one .description{font-size: 16px;}
+#privacy-policy table th, #privacy-policy table td{
+  border: 1px solid #494949;
+}
+@media (min-width: 992px) {
+  .footer-style-one .description {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 700px) {
+  .copyright-area-one .main-wrapper {
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .footer-style-one .description {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-right: 0px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .img-box.v2 {
+    height: 270px;
+  }
+}
+
+@media (min-width: 575px) {
+  .my-expertise-card-wrap {
+    padding: 25px 25px;
+    justify-content: space-between;
+  }
+  #Newsroom .blog-card-style-two .blog-content-wrap {
+        padding: 20px 20px 20px 20px;
+    }
+  #Newsroom .img-box {
+    border-radius: 0px;
+}
+}

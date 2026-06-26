@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="svg3588" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 682.67 682.67">
+  <!-- Generator: Adobe Illustrator 29.8.2, SVG Export Plug-In . SVG Version: 2.1.1 Build 3)  -->
+  <defs>
+    <style>
+      .st0 {
+        stroke-miterlimit: 13.33;
+        stroke-width: 40px;
+      }
+
+      .st0, .st1 {
+        fill: none;
+        stroke: #fff;
+      }
+
+      .st1 {
+        stroke-miterlimit: 10;
+      }
+
+      .st2 {
+        clip-path: url(#clippath-1);
+      }
+
+      .st3 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="st1" y="0" width="682.67" height="682.67"/>
+    </clipPath>
+    <clipPath id="clippath-1">
+      <rect class="st1" y="0" width="682.67" height="682.67"/>
+    </clipPath>
+  </defs>
+  <g id="g3594">
+    <g id="g3596">
+      <g>
+        <g class="st3">
+          <g id="g3598">
+            <path id="path3604" class="st0" d="M662.67,100.91H20V20h642.67v80.91Z"/>
+          </g>
+        </g>
+        <rect class="st1" y="0" width="682.67" height="682.67"/>
+      </g>
+    </g>
+    <g id="g3606">
+      <path id="path3608" class="st0" d="M341.33,508.95v81.64"/>
+    </g>
+    <g id="g3610">
+      <g>
+        <g class="st2">
+          <g id="g3612">
+            <g id="g3618">
+              <path id="path3620" class="st0" d="M377.44,626.7c0-19.94-16.17-36.11-36.11-36.11s-36.11,16.17-36.11,36.11,16.17,36.11,36.11,36.11,36.11-16.17,36.11-36.11Z"/>
+            </g>
+            <path id="path3622" class="st0" d="M628.72,509.05H53.95V100.91h574.77v408.14Z"/>
+            <g id="g3624">
+              <path id="path3626" class="st0" d="M416.06,379.44l-74.72,54.32-74.72-54.32c-21.48-15.62-34.2-40.57-34.2-67.13v-87.3c23.46,0,42.48-19.02,42.48-42.48h132.87c0,23.46,19.02,42.48,42.48,42.48v87.3c0,26.56-12.71,51.51-34.19,67.13Z"/>
+            </g>
+            <g id="g3628">
+              <path id="path3630" class="st0" d="M341.33,433.76v-251.19"/>
+            </g>
+            <g id="g3632">
+              <path id="path3634" class="st0" d="M115.53,345.19h40.59"/>
+            </g>
+            <g id="g3636">
+              <path id="path3638" class="st0" d="M115.53,425.19h100.48"/>
+            </g>
+            <g id="g3640">
+              <path id="path3642" class="st0" d="M564.79,345.19h-40.59"/>
+            </g>
+            <g id="g3644">
+              <path id="path3646" class="st0" d="M564.79,425.19h-100.48"/>
+            </g>
+          </g>
+        </g>
+        <rect class="st1" y="0" width="682.67" height="682.67"/>
+      </g>
+    </g>
+  </g>
+</svg>
