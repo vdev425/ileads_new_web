@@ -104,7 +104,7 @@ export const portfolioItems9 = [
     ariaLabel: "Read more about Game Changers of Uttarakhand Awards 2024",
     width: 410,
     height: 294,
-    link: "assets/images/news/19-May-Dehradun-2.pdf",
+    link: "https://www.ileads.co.in/assets/documents/19-May-Dehradun-2.pdf",
     altText: "Game Changers of Uttarakhand Awards 2024",
   },
   {
@@ -116,7 +116,7 @@ export const portfolioItems9 = [
     ariaLabel: "Read more about Provided employment to more than 3000 youth through startup.",
     width: 410,
     height: 294,
-    link: "assets/images/news/Ankur-Sinha-Pride-of-UK-2024.pdf",
+    link: "https://www.ileads.co.in/assets/documents/Ankur-Sinha-Pride-of-UK-2024.pdf",
     altText: "Provided employment to more than 3000 youth through startup.",
   },
   {

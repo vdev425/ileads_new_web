@@ -186,7 +186,7 @@ export const blogData5 = [
     title: "The startup provided employement to more than 3500 youth.",
     width: 410,
     height: 291,    
-    link:"/assets/images/news/3500-youth-employement.pdf",
+    link:"https://www.ileads.co.in/assets/documents/3500-youth-employement.pdf",
   },
   {
     id: 2,
@@ -200,7 +200,7 @@ export const blogData5 = [
     width: 410,
     height: 291,
 
-    link:"/assets/images/news/19-May-Dehradun-2.pdf",
+    link:"https://www.ileads.co.in/assets/documents/19-May-Dehradun-2.pdf",
   },
   {
     id: 3,
@@ -214,7 +214,7 @@ export const blogData5 = [
     width: 411,
     height: 291,
 
-    link:"/assets/images/news/Ankur-Sinha-Pride-of-UK-2024.pdf",
+    link:"https://www.ileads.co.in/assets/documents/Ankur-Sinha-Pride-of-UK-2024.pdf",
   },
   {
     id: 4,

@@ -37,7 +37,7 @@ export default function Blogs4({ isLight = false }) {
                     muted 
                     playsInline
                 >
-                    <source src="/assets/documents/video.mp4" type="video/mp4" />
+                    <source src="https://www.ileads.co.in/assets/documents/video.mp4" type="video/mp4" />
                 </video>
                 <h4 className="blog-title mt--15"><a href="https://www.ileads.co.in/assets/documents/video.mp4" target="_blank">Symbol of Excellence | iLeads Auxiliary Services</a></h4>
             </div>
